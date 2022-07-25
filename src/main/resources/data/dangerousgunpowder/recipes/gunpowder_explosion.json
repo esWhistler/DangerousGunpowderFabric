@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 30,
+  "experience": 0,
+  "ingredient": {
+    "item": "minecraft:gunpowder"
+  },
+  "result": "dangerousgunpowder:explosion_item"
+}

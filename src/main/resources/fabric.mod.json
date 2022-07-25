@@ -1,38 +1,35 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "dangerousgunpowder",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Dangerous Gunpowder",
+  "description": "Ever placed gunpowder in a furnance in Minecraft and were disappointed it didn't explode? Do I have a mod for you! ",
   "authors": [
-    "Me!"
+    "Whistler"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/dangerous-gunpowder-fabric",
+    "sources": "https://github.com/esWhistler/DangerousGunpowderFabric",
+    "issues": "https://github.com/esWhistler/DangerousGunpowderFabric/issues"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT License",
+  "icon": "assets/dangerousgunpowder/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.whistler.dangerousgunpowder.DangerousGunpowder"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "dangerousgunpowder.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.14.6",
-    "fabric": "*",
     "minecraft": "~1.19",
     "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }
