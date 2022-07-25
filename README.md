@@ -1,4 +1,3 @@
-![client](https://img.shields.io/badge/environment-server-1976d2?style=flat-square)
 # Dangerous Gunpowder for fabric
 
 ![Available for](https://cf.way2muchnoise.eu/versions/dangerous_gunpowder_fabric_all.svg)
