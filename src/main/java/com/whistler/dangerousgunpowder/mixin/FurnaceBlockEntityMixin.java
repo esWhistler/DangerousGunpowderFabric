@@ -1,11 +1,9 @@
 package com.whistler.dangerousgunpowder.mixin;
 
-import com.whistler.dangerousgunpowder.DangerousGunpowder;
 import com.whistler.dangerousgunpowder.item.ModItems;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.AbstractFurnaceBlockEntity;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.world.GameRules;
 import net.minecraft.world.World;
 import net.minecraft.world.explosion.Explosion;
 import org.spongepowered.asm.mixin.Mixin;
