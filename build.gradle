@@ -19,10 +19,14 @@ dependencies {
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
-	// Fabric API required modules
+
+    modImplementation include(fabricApi.module("fabric-api-base", project.fabric_version))
 	modImplementation include(fabricApi.module("fabric-item-api-v1", project.fabric_version))
+	modImplementation include(fabricApi.module("fabric-networking-api-v1", project.fabric_version))
 	modImplementation include(fabricApi.module("fabric-registry-sync-v0", project.fabric_version))
-	modImplementation include(fabricApi.module("fabric-content-registries-v0", project.fabric_version))
+	modImplementation include(fabricApi.module("fabric-resource-loader-v0", project.fabric_version))
+	modImplementation include(fabricApi.module("fabric-transitive-access-wideners-v1", project.fabric_version))
+
 
 	// Mod Menu Implementation
 	if (project.mod_menu_installed == "true") {
